@@ -1,0 +1,35 @@
+# Python 运行产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# 日志与临时数据
+*.log
+*.tmp
+*.bak
+*.cache
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 注意：BeeD-SDK.zip 是 SDK 本体（含 DBDynamics.py），不要加入忽略规则
